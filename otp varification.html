@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verify OTP</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 flex items-center justify-center min-h-screen p-4">
+
+    <section class="bg-white p-8 rounded-3xl shadow-xl border border-slate-100 max-w-sm w-full text-center">
+        <div >
+            <h1 class="text-2xl font-bold text-slate-800">Enter OTP</h1>
+            <p class="text-slate-500 text-sm mt-2 font-bold">We sent a 4-digit code to your email.</p>
+        </div>
+
+        <form  class="space-y-6  mt-5">
+            <div class="flex justify-center gap-3">
+                <input type="text" maxlength="1" class="w-12 h-14 text-center text-2xl font-bold border-2  rounded-xl focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition-all" />
+                <input type="text" maxlength="1" class="w-12 h-14 text-center text-2xl font-bold border-2 border-slate-200 rounded-xl focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition-all" />
+                <input type="text" maxlength="1" class="w-12 h-14 text-center text-2xl font-bold border-2 border-slate-200 rounded-xl focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition-all" />
+                <input type="text" maxlength="1" class="w-12 h-14 text-center text-2xl font-bold border-2 border-slate-200 rounded-xl focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition-all" />
+            </div>
+
+            <button type="submit" class="w-full bg-gray-500 hover:bg-gray-700 text-white py-3 rounded-xl font-semibold shadow-lg  active:scale-95 transition-all">
+                Verify Account
+            </button>
+        </form>
+
+        <p class="mt-8 text-sm text-slate-500">
+            Didn't receive the code? 
+            <a href="#" class="text-blue-600 font-semibold hover:underline">Resend OTP</a>
+        </p>
+    </section>
+
+</body>
+</html>
